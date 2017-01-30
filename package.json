@@ -1,0 +1,19 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Bob Hinkley",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.1",
+    "jQuery": "^1.7.4",
+    "pg": "^6.1.2"
+  }
+}

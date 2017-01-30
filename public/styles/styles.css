@@ -1,0 +1,62 @@
+.glyphicon{
+  float: right;
+}
+
+button {
+  margin: 0 5px 0 5px;
+  float: right;
+}
+
+body {
+  margin: auto;
+  width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  border 1px solid #999;
+}
+
+
+ul{
+  margin-top: 25px;
+  list-style-type: none;
+  /*width: 580px;*/
+}
+
+li {
+  margin: 5px 20px 0 0;
+  border-bottom: 1px solid;
+  /*width: 100%;*/
+  padding-bottom: 3px;
+}
+
+form {
+  width: auto;
+  display: block;
+
+}
+input {
+  width: 75%;
+  padding: 10px;
+  margin: 0 0 15px 15px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+}
+input:focus, input .focus {
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+#todo-form {
+  background-color: #41a3da;
+  border-radius: 25px;
+  padding: 30px 15px 15px 15px;
+  margin-top: 10px;
+}
+
+#task_submit {
+  margin: 5px 30px 0 0;
+}
+
+#task-list {
+  overflow: none;
+}
