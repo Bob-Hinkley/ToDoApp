@@ -3,5 +3,7 @@ CREATE TABLE task (
 	message varchar (300)
 	)
 
+	ALTER TABLE task
+  ADD COLUMN "complete" BOOLEAN DEFAULT FALSE;
 
-  
+	
